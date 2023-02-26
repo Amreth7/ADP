@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <img src="https://github.com/Blank-09/Skcet-ADP-Course/blob/master/Day%2004/Practice/Fav%20Food/img/hero.jpg?raw=true" alt="Salad Image" id="titleImage">
+      <h1 id="titleName">
+        Some of my fav <div class="text-large">Foods</div>
+      </h1>
+    </section>
+    <hr>
+    <section class="pizza-page">
+      <h3 id="favFood1">Pizza</h3>
+      <p id="foodDescription">Pizza comes in a very variety of tastes depending on ingredients, making the size and texture etc. On their own, they taste pretty good.</p>
+      <img src="https://github.com/Blank-09/Skcet-ADP-Course/blob/master/Day%2004/Practice/Fav%20Food/img/pizza.jpg?raw=true" alt="Pizza Image" id="favFoodImage1">
+    </section>
+    <hr>
+    <section class="fried-chicken-page">
+      <h3 id="favFood2">Fried Chicken</h3>
+      <p id="foodDescription2">Each country has its unique seasoning and preferred cut of chicken, but the base flavour is still the same.</p>
+      <img src="https://raw.githubusercontent.com/Blank-09/Skcet-ADP-Course/master/Day%2004/Practice/Fav%20Food/img/fried-chicken.jpg" alt="Fried Chicken Image" id="favFoodImage2">
+    </section>
+    <hr>
+    <section class="salad-page">
+      <h3 id="favFood3">Salad</h3>
+      <p id="foodDescription3">Your body can get the much-needed fibre with salads. Fibre's job is to reduce cholesterol and aid digestion. It also makes you feel full and prevents you from overeating.</p>
+      <img src="https://github.com/Blank-09/Skcet-ADP-Course/blob/master/Day%2004/Practice/Fav%20Food/img/salad.png?raw=true" alt="Salad Image" id="favFoodImage3">
+    </section>
+  </body>
+</html>
+
+CSS:
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  hr {
+    border: 5px solid white;
+    margin: 0;
+  }
+  h1 {
+    font-size: 3rem;
+  }  
+  h3 {
+    font-size: 1.5rem;
+  }
+  h1, h3 {
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  h3, p {
+    color: white;
+    width: 70vw;
+  } 
+  img {
+    width: 100%;
+  }
+  .text-large {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  .hero {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    align-self: flex-start;
+  }
+  img:not(#titleImage) {
+    border: 3px solid white;
+    padding: 7px;
+    width: 70vw;
+  }
+  .pizza-page,
+  .fried-chicken-page,
+  .salad-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  .pizza-page {
+    background-color: #ffb100;
+  }
+  .fried-chicken-page {
+    background-color: #cb00cb;
+  }
+  .salad-page {
+    background-color: #00aac7;
+  }

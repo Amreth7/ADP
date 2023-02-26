@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="row">
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>         
+        </div>
+        <div class="row">
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>        
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>        
+        </div>
+        <div class="row">
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>        
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>        
+        </div>
+        <div class="row">
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>       
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>
+            <div class="box"></div>
+            <div class=" box black"></div>          
+        </div>
+    </body>
+</html>
+
+CSS:
+
+html{
+    background-color: gray;
+}
+body{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+}
+.row
+{
+    height:100px;
+    width:800px;
+}
+.box{
+    width: 100px ;
+    height: 100px;
+    float: left;
+}
+.black
+{
+   background-color:black;
+}

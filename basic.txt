@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Basic Formatting tags in html</title>
+</head>
+<body>
+HTML Text Formatting Elements<br>
+Tag	Description<br>
+<b>(b)Defines bold text</b><br>
+<em>(em)	Defines emphasized text </em><br>
+<i> (i)Defines a part of text in an alternate voice or mood</i><br>
+<small>(small)	Defines smaller text</small><br>
+<strong>(strong)	Defines important text</strong><br>
+<sub>(sub)	Defines subscripted text </sub><br>
+<sup>(sup)	Defines superscripted text</sup><br>
+<ins>(ins)	Defines inserted text </ins><br>
+<del>(del)	Defines deleted text </del><br>
+<mark>(mark)	Defines marked/highlighted text</mark><br>
+</body>
+</htmll>

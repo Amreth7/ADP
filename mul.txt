@@ -1,0 +1,10 @@
+   process.stdin.on('data',number => {
+    number=parseInt(number)
+   var n=parseInt(number)   
+        for(var i=1;i<=12;i++)  
+        {
+       var value=number*i;
+        console.log("%d*%d=%d",n,i,value)
+        }
+        process.exit();
+});

@@ -1,0 +1,21 @@
+process.stdin.on('data', number => {
+number=parseInt(number);
+var a=-1, b=1,s;
+for(var i=0;i<number;i++) {
+s=a+b;
+a=b;
+b=s;
+console.log(s) ;
+}
+process.exit();
+});
+
+17)Factorial:
+
+process.stdin.on('data', number => {
+    let fact =1;
+for(let i=1;i<=number;i++)
+    fact=fact*i;
+console.log(fact);
+process.exit();
+});

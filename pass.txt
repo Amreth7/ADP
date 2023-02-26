@@ -1,0 +1,12 @@
+15)Pass or Fail:
+
+process.stdin.on('data', marks => {
+    let a =Number(marks);
+if(a<40){
+    console.log("You fail the exam.");
+}
+else{
+    console.log("You pass the exam.")
+}
+process.exit();
+});

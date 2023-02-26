@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+<table border=0>
+<tr>
+<td>User name*</td> <td> <input type="text" required></td>
+</tr>
+<tr>
+<td>Email*</td> <td> <input type="email" required></td>
+</tr>
+<tr>
+<td> Country</td>
+<td> <select name="country">
+    <option value="India">India</option>
+    <option value="Canada">Canada</option>
+      </select>
+  </td>
+  </tr>
+<tr>
+<td>
+  Country code: </td>
+  <td><input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"></td>
+  </tr>
+  <tr>
+  <td>
+  Password</td>
+  <td> <input type="password" name="pw" pattern=".{6,}" > </td>
+  <tr>
+  <td> Personal Information</td>
+  <td><fieldset>
+    <legend>My personal info.</legend>
+    Date of Birth:<br>
+    <input type="date" name="t1">
+    <br> <br>
+    Spouse Name<br>
+    <input type="text" name="t2">
+    <br></fieldset>
+    <br>
+    </td>
+  </tr>
+  <tr>
+  <td> Remarks</td>
+  <td> <textarea name="message" rows="10" cols="30">please enter your additional remarks(if any)</textarea> </td>
+  </tr>
+  <tr>
+  <td>
+  </td>
+  <td>  
+  <input type="submit"></td>
+  </table>
+</form>
+</body>
+</html>
