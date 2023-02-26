@@ -1,0 +1,8 @@
+      process.stdin.on('data',year=>{
+    year=parseInt(year)
+    if(year%4===0)
+    console.log("leap year")
+    else
+    console.log("non leap year")
+    process.exit()  
+});
